@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: #1da1f2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    background-color:white;
+    border-radius: 5px;
+    padding: 20px 20px;
+    width:640px;
+    margin-top:225px;
+}
+
+.avatar{
+    width: 50px;
+}
+
+i{
+    font-size:16px;
+    color:grey;
+    padding: 0px 10px;
+    opacity:100%;
+}
+
+.bi.bi-heart-fill:active {
+    color:#dc2052;
+    opacity: 100%;
+}
+
+.header{
+    display:flex;
+}
+
+.header>div{
+    padding-left: 10px;
+}
+
+.tweet{
+    padding:20px 0px;
+    font-size:20px;
+}
+
+.date{
+    font-size:16px;
+}
+
+.footer>div{
+    display:flex;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer>div>a{
+    text-decoration: none;
+    color:black;
+    padding-left: 20px;
+    font-size:16px;
+
+}
+
+.footer>div>p{
+    padding-right:4px;
+    font-size:16px;
+}
+
+hr{
+    margin:20px 0px;
+    opacity: 90%;
+}
+
+.footer>div>p{
+    padding-left:5px;
+    padding-right: 10px;
+}
+
+.bi.bi-patch-check-fill{
+    color:#1da1f2;
+}
+
+
+
